@@ -1,0 +1,36 @@
+#blog {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  .blogHeading {
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: map-get($font-weight, bold);
+      font-size: 2rem;
+    }
+    p {
+      width: 60%;
+      font-size: 1.3rem;
+      margin: 1rem auto;
+      font-weight: lighter;
+    }
+  }
+  .card {
+    padding-top: 1rem;
+    border: none !important;
+    .card-body {
+      padding: 0px !important;
+      a {
+        text-decoration: none !important;
+        font-size: 1.4rem;
+        color: #000;
+        text-transform: uppercase;
+        font-weight: map-get($font-weight, small);
+        transition: all 0.7s ease;
+        &:hover {
+          color: #32dbc6;
+        }
+      }
+    }
+  }
+}

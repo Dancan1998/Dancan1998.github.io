@@ -1,0 +1,36 @@
+#services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/hero_1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+  background-attachment: fixed;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  .servicesHeading {
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: map-get($font-weight, bold);
+      font-size: 2rem;
+      color: #fff;
+    }
+  }
+  .icon {
+    font-size: 1.5rem;
+    color: #32dbc6;
+    padding-top: 1rem;
+  }
+  .serviceText {
+    h4 {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-family: $font-abel;
+      color: #fff;
+    }
+    p {
+      word-spacing: 4px;
+    }
+  }
+}

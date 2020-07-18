@@ -1,0 +1,468 @@
+@import url(../css/fonts.css);
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#topSection {
+  background-color: #343a40;
+}
+
+#topSection .top {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#topSection .top .info1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+#topSection .top .info1 h6 {
+  color: #fff;
+}
+
+#topSection .top .info1 h6 span {
+  color: #32dbc6;
+}
+
+#topSection .top .info2 a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+#topSection .top .info2 a i {
+  padding: 5px;
+  color: #32dbc6;
+}
+
+#header .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#header .navbar-nav .active a {
+  color: #32dbc6 !important;
+}
+
+#header .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+#header .navbar-nav .nav-item .nav-link:hover {
+  color: #32dbc6;
+}
+
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.font-abel {
+  font-family: "Abel", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-old {
+  font-family: "Old_Standard_TT", cursive;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", cursive;
+}
+
+.font-livvic {
+  font-family: "Livvic", cursive;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+#banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/image23.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/image23.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#banner .bannerText {
+  color: #fff;
+}
+
+#banner .bannerText h2,
+#banner .bannerText h3,
+#banner .bannerText h5 {
+  text-transform: uppercase;
+}
+
+#banner .bannerText h2 {
+  font-weight: 700;
+}
+
+#banner .bannerText h3 span {
+  color: #32dbc6;
+}
+
+#banner .bannerText button {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#banner .bannerText button a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#banner .bannerText button:hover {
+  background: #32dbc6;
+  border: none;
+}
+
+@media (max-width: 320px) {
+  #header .navbar-toggler {
+    font-size: 14px;
+  }
+  #header h1 {
+    font-size: 18px;
+  }
+  #header h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  #topSection .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #topSection .top .info1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .navbar-fixed {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #header .navbar-toggler {
+    font-size: 1rem;
+  }
+  .navbar-fixed {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #topSection .top .info1 {
+    width: 60%;
+  }
+}
+
+#about {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about .aboutText {
+  padding: 2rem 0;
+}
+
+#about .aboutText h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+#about .aboutText P {
+  line-height: 1.3rem;
+  margin-top: 1rem;
+}
+
+#about .aboutText P .style {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+#about .progressDiv {
+  padding: 2rem 0;
+}
+
+#about .progressDiv h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+#about .progressDiv h4 {
+  text-transform: capitalize;
+}
+
+#about .progressDiv .progress-bar {
+  border-radius: 1rem;
+}
+
+#myWork {
+  width: 100%;
+  margin: 2rem auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#myWork .myHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#myWork .myHeading h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#myWork .myHeading p {
+  width: 50%;
+  font-size: 1.3rem;
+  margin: 1rem auto;
+  font-weight: lighter;
+}
+
+#myWork .myHeading button {
+  margin: 5px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#myWork .imageWrapper {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#myWork .imageWrapper a {
+  text-decoration: none;
+}
+
+#myWork .imageWrapper a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+#myWork .imageWrapper a .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#myWork .imageWrapper a .overlay .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#myWork .imageWrapper a .overlay .text h2 {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+#myWork .imageWrapper a .overlay .text span {
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#myWork .imageWrapper a:hover .overlay {
+  opacity: 1;
+}
+
+#myWork .imageWrapper a:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#myWork button:focus,
+button:hover {
+  outline: 0px !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#blog {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#blog .blogHeading h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#blog .blogHeading p {
+  width: 60%;
+  font-size: 1.3rem;
+  margin: 1rem auto;
+  font-weight: lighter;
+}
+
+#blog .card {
+  padding-top: 1rem;
+  border: none !important;
+}
+
+#blog .card .card-body {
+  padding: 0px !important;
+}
+
+#blog .card .card-body a {
+  text-decoration: none !important;
+  font-size: 1.4rem;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+#blog .card .card-body a:hover {
+  color: #32dbc6;
+}
+
+#services {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/hero_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero_1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3rem;
+  background-attachment: fixed;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+#services .servicesHeading h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#services .icon {
+  font-size: 1.5rem;
+  color: #32dbc6;
+  padding-top: 1rem;
+}
+
+#services .serviceText h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Abel", cursive;
+  color: #fff;
+}
+
+#services .serviceText p {
+  word-spacing: 4px;
+}
+
+#footer .contact {
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+#footer .contact h2 {
+  text-align: center;
+}
+
+#footer .contact span {
+  color: #32dbc6;
+}
+/*# sourceMappingURL=main.css.map */

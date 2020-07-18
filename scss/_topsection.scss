@@ -1,0 +1,31 @@
+#topSection {
+  background-color: #343a40;
+  .top {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    .info1 {
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+      h6 {
+        color: #fff;
+        span {
+          color: #32dbc6;
+        }
+      }
+    }
+    .info2 {
+      a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px;
+        margin: 5px;
+        i {
+          padding: 5px;
+          color: #32dbc6;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+$font-abel: "Abel", cursive;
+$font-raleway: "Raleway", cursive;
+$font-livvic: "Livvic", cursive;
+$font-cinzel: "Cinzel", cursive;
+$font-old: "Old_Standard_TT", cursive;
+$font-weight: (
+  "bold": 700,
+  "small": 600,
+);
+$dip: #222222;
+$baseColor: #8490ff;
+$rob: "Raleway", sans-serif;
+@mixin transition(
+  $property: all,
+  $duration: 300ms,
+  $animate: linear,
+  $delay: 0s
+) {
+  transition: $property $duration $animate $delay;
+}
